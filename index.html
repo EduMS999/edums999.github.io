@@ -1,1 +1,119 @@
-<h1>Github pages test</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+    <style>
+        @font-face {
+            font-family: "Escargoth";
+            src: url(Fonts/Escargoth\ Demo.otf) format("otf"),
+                url(Fonts/Escargoth\ Demo.ttf) format("truetype");
+            -webkit-text-stroke-width: 10%;
+            -webkit-text-stroke: black;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            font-family: Escargoth, Arial;
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            font-family: Escargoth, Arial;
+            background: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: #fff;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .project-card img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Portafolio Profesional</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#content">Contenido</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <img src="assets/foto.jpg" alt="Yo" width="120" height="170" style="border: 2px solid black; border-radius: 10px;">
+        <p>Hola, soy Eduardo José Moreno Segura. Soy un programador apasionado por el desarrollo tanto de aplicaciones cómo de videojuegos. Mi objetivo es aprender día tras día y conseguir habilidades que me lleven a poder desarrollar grandes aplicaciones y videojuegos.</p>
+        <h3>Áreas de Especialización</h3>
+        <ul>
+            <li>Rol Principal: [Game Designer, Programador]</li>
+            <li>Herramientas/Lenguajes: [Unity, C#, Blender, Java, Visual Studio, Python, Dart, Android Studio, etc]</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos de Videojuegos</h2>
+        <div class="project-card">
+            <img src="proyecto1.jpg" alt="Proyecto 1">
+            <h3>[Título del Juego]</h3>
+            <p><strong>Rol:</strong> [Tu Rol en el Proyecto]</p>
+            <p><strong>Descripción:</strong> [Breve descripción del juego y tu contribución].</p>
+            <p><strong>Retos y Soluciones:</strong> [Describe el mayor reto y cómo lo resolviste].</p>
+        </div>
+    </section>
+
+    <section id="content">
+        <h2>Contenido a Destacar</h2>
+        <div class="project-card">
+            <p><strong>Código a destacar:</strong> [Explicación del mismo incluyendo imagenes cómo diagramas].</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <div class = "project-card">
+            <p><strong>Datos de contacto: </strong>eduardomorenosegura@gmail.com</p>
+            <p><strong>Enlaces profesionales: </strong>
+                <a href="https://www.linkedin.com/in/eduardo-jos%C3%A9-moreno-segura-63951729a/">LinkedIn</a> 
+                <a href="https://github.com/EduMS999">Github</a>
+            </p>
+        </div>
+    </section>
